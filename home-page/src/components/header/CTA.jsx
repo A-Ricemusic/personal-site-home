@@ -1,5 +1,5 @@
 import React from 'react'
-import Resume from '../../Assets/Resume.pdf'
+import Resume from '../../assets/Assets/Resume.pdf'
 import './Header.css'
 
 

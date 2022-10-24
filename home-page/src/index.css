@@ -40,7 +40,7 @@ font-family: "Poppins", sans-serif;
 background-color: var(--color-bg);
 color: var(--color-white);
 line-height: 1.7;
-background-image: url(../src/Assets/background.jpeg);
+background-image: url(../src/assets/Assets/bg-texture.png);
 }
 
 
