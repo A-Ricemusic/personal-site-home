@@ -23,25 +23,34 @@ const About = () => {
             <article className='about__card'>
               <FaAward className='about__icon'/>
               <h5>Experience</h5>
-              <small>3+ Years Working</small>
+              <p>Web development</p>
+              <p>Mortgage Analyst</p>
+              <p>Game development</p>
+              <p>Education</p>
             </article>
 
             <article className='about__card'>
               <FiUsers className='about__icon'/>
-              <h5>Clients</h5>
-              <small>200+ Worldwide</small>
+              <h5>Education</h5>
+              <p>University of Tampa</p>
+              <p>B.S in Mathematics</p>
+              <p>Minor in physics</p>
+              <p>GPA: 3.42</p>
             </article>
 
             <article className='about__card'>
               <VscFolderLibrary className='about__icon'/>
-              <h5>Projects</h5>
-              <small>80+ Completed</small>
+              <h5>Achievements</h5>
+              <p>Actuarial Exam P</p>
+              <p>Actuarial Exam FM</p>
+              <p>Phi Mu Epsilon</p>
+              <p>Kappa Kappa Psi</p>
             </article>
           </div>
 
-          <p>
+          <h3>
            Mathematics graduate with knowledge of actuarial science, software engineering, and statistical analysis. Has experience in the financial and mortgage profession, with a background in customer care and education.
-          </p>
+          </h3>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
         </div>

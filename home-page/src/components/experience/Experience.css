@@ -10,6 +10,7 @@
   padding: 2.4rem 5rem;
   border-radius: 2rem;
   border: 1px solid transparent;
+  left: 25%;
   transition: var(--transition);
 }
 
@@ -39,6 +40,11 @@
 .experience__details-icon {
   margin-top: 6px;
   color: var(--color-primary);
+}
+.left {
+  justify-content: flex-start;
+
+
 }
 
 /* ================ MEDIA QUERIES (MEDIUM DEVICES) ================= */

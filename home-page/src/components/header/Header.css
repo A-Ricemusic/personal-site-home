@@ -12,7 +12,7 @@ header {
     display: flex;
     gap: 1rem;
     flex-direction: column;
-
+    font-size: larger;
 }
 
 .header__container {
@@ -24,6 +24,7 @@ header {
     display: flex;
     gap: 1rem;
     justify-content: center;
+    font-size: larger;
 }
 
 .header__socials::after {
@@ -34,20 +35,8 @@ header {
 
 }
 
-.me {
-    width: 22rem;
-    height: 22rem;
-    position: absolute;
-    left: calc(50% - 11rem);
-    margin-top: 1rem;
-    border: 12rem,12rem,0,0;
-    padding-bottom: 4rem;
 
-}
 
-.scroll__down {
-    position: absolute;
-}
 
 /*=========Media Queries===========*/
 
