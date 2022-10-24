@@ -15,6 +15,7 @@ const Nav = () => {
     <a href = '#' onClick={() => setActiveNav="#"}  className={activeNav === '#' ? 'active' : ''}> Home <AiTwotoneHome/></a>
     <a href = '#about' onClick={() => setActiveNav("#about")} className={activeNav === '#about' ? 'active' : ''}>About <FcAbout/></a>
     <a href = '#experience' onClick={() => setActiveNav("#experience")}  className={activeNav === '#experience' ? 'active' : ''}>Experience <FcServices/></a>
+    <a href = '#work' onClick={() => setActiveNav("#work")}  className={activeNav === '#work' ? 'active' : ''}>Work History<FcServices/></a>
     <a href = '#portfolio' onClick={() => setActiveNav("#portfolio")}  className={activeNav === '#portfolio' ? 'active' : ''}>Portfolio <GoProject /></a>
     <a href = '#contact' onClick={() => setActiveNav("#contact")}  className={activeNav === '#contact' ? 'active' : ''}>Contact <FcContacts/></a>
 
