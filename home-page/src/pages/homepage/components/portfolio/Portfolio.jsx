@@ -1,8 +1,7 @@
 import React from 'react'
+import {Link } from 'react-router-dom'
 import './portfolio.css'
 import IMG1 from '../../../../assets/Assets/portfolio1.png'
-import IMG2 from '../../../../assets/Assets/portfolio2.png'
-import IMG3 from '../../../../assets/Assets/portfolio3.png'
 //import IMG4 from '../../assets/portfolio4.jpg'
 //import IMG5 from '../../assets/portfolio5.png'
 //import IMG6 from '../../assets/portfolio6.jpg'
@@ -12,27 +11,25 @@ import IMG3 from '../../../../assets/Assets/portfolio3.png'
 const data = [
   {
     id: 1,
-    image: IMG1,
-    title: 'Game Development Projects',
-    link: 'GameDevelopementProjects',
+    image: null,
+    title: '',
+    link: '',
+    isLink: false
   },
   {
     id: 2,
-    image: IMG2,
-    title: 'Python Projects',
-    link: 'https://github.com',
-  },
-  {
-    id: 3,
-    image: IMG3,
-    title: 'React Js Projects',
-    link: 'https://github.com',
-  },
+    image: IMG1,
+    title: 'Game Development',
+    link: 'GameDevelopementProjects',
+    isLink: true
+  }
+ 
  
 ]
 
 
 const Portfolio = () => {
+
   return (
     <section id='portfolio'>
       <h5>My Recent Work</h5>
@@ -40,16 +37,16 @@ const Portfolio = () => {
 
       <div className="container portfolio__container">
         {
-          data.map(({id, image, title, link}) => {
+          data.map(({id, image, title,link, isLink}) => {
             return (
-              <article key={id} className='portfolio__item'>
-              <div className="portfolio__item-image">
+              <article key={id} className='portfolio-item'>
+              <div className="portfolio__item-image"> 
                 <img src={image} alt={title} />
               </div>
-              <h3>{title}</h3>
-              <div className="portfolio__item-cta">
-                <a href={link} className='btn' target='_blank'>Learn More</a>
-              </div>
+              <h3 className='text'>{title}</h3>
+              <nav className="portfolio__item-cta">
+               {isLink && <Link to={link} className='btn' target='_blank'>Learn More</Link>}
+              </nav>
             </article>
             )
           })
@@ -58,5 +55,6 @@ const Portfolio = () => {
     </section>
   )
 }
+
 
 export default Portfolio

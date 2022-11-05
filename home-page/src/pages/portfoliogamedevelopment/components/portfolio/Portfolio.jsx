@@ -13,20 +13,29 @@ const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'Game Development Projects',
-    link: 'GameDevelopementProjects',
+    title: 'Project 1',
+    description: 'stuff',
+    link1: 'GameDevelopementProjects',
+    link2: 'GameDevelopementProjects',
+    link3: 'GameDevelopementProjects',
   },
   {
     id: 2,
     image: IMG2,
-    title: 'Python Projects',
-    link: 'https://github.com',
+    title: 'Project 2',
+    description: 'Stuff',
+    link1: 'https://github.com',
+    link2: 'https://github.com',
+    link3: 'https://github.com',
   },
   {
     id: 3,
     image: IMG3,
-    title: 'React Js Projects',
-    link: 'https://github.com',
+    title: 'Project 3',
+    description: 'Stuff',
+    link1: 'https://github.com',
+    link2: 'https://github.com',
+    link3: 'https://github.com',
   },
  
 ]
@@ -40,15 +49,18 @@ const Portfolio = () => {
 
       <div className="container portfolio__container">
         {
-          data.map(({id, image, title, link}) => {
+          data.map(({id, image, title, description, link1, link2, link3}) => {
             return (
               <article key={id} className='portfolio__item'>
               <div className="portfolio__item-image">
                 <img src={image} alt={title} />
               </div>
-              <h3>{title}</h3>
+              <h5 className='portfolio__title'>{title}</h5>
+              <p className='portfolio__description'>{description}</p>
               <div className="portfolio__item-cta">
-                <a href={link} className='btn' target='_blank'>Learn More</a>
+                <a href={link1} className='btn' target='_blank'>Watch Video Breakdown</a>
+                <a href={link2} className='btn' target='_blank'>Try Demon</a>
+                <a href={link3} className='btn' target='_blank'>Visit Source Code</a>
               </div>
             </article>
             )
