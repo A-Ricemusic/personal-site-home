@@ -7,7 +7,7 @@ import {GoProject} from 'react-icons/go'
 import {FcServices} from 'react-icons/fc'
 import {FcContacts} from 'react-icons/fc'
 import {MdWork} from 'react-icons/md'
-import {MdCastForEducation} from 'react-icons/md'
+//import {MdCastForEducation} from 'react-icons/md'
 import { useState } from 'react'
 
 const Nav = () => {
