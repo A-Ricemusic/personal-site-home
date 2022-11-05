@@ -20,7 +20,7 @@ const data = [
     id: 2,
     image: IMG1,
     title: 'Game Development',
-    link: 'GameDevelopementProjects',
+    link: '/GameDevelopementProjects',
     isLink: true
   }
  
@@ -45,7 +45,7 @@ const Portfolio = () => {
               </div>
               <h3 className='text'>{title}</h3>
               <nav className="portfolio__item-cta">
-               {isLink && <Link to={link} className='btn' target='_blank'>Learn More</Link>}
+               {isLink && <a href={link} className='btn'>Learn More</a>}
               </nav>
             </article>
             )
