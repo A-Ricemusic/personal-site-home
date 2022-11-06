@@ -41,11 +41,11 @@ const Portfolio = () => {
             return (
               <article key={id} className='portfolio-item'>
               <div className="portfolio__item-image"> 
-                <img src={image} alt={title} />
+              {isLink &&  <img src={image} alt={title} />}
               </div>
               <h3 className='text'>{title}</h3>
               <nav className="portfolio__item-cta">
-               {isLink && <a href={link} className='btn'>Learn More</a>}
+               {isLink && <a href={link} className='btn'>View Projects</a>}
               </nav>
             </article>
             )

@@ -12,30 +12,58 @@ import IMG3 from '../../../../assets/Assets/portfolio3.png'
 const data = [
   {
     id: 1,
-    image: IMG1,
     title: 'Project 1',
     description: 'stuff',
-    link1: 'GameDevelopementProjects',
-    link2: 'GameDevelopementProjects',
-    link3: 'GameDevelopementProjects',
+    video: 'https://github.com',
+    isVideo: true,
+    demo: 'https://github.com',
+    isDemo: true,
+    code: 'https://github.com',
+    isCode: true
   },
   {
     id: 2,
-    image: IMG2,
     title: 'Project 2',
-    description: 'Stuff',
-    link1: 'https://github.com',
-    link2: 'https://github.com',
-    link3: 'https://github.com',
+    description: 'Description',
+    video: 'https://github.com',
+    isVideo: true,
+    demo: 'https://github.com',
+    isDemo: true,
+    code: 'https://github.com',
+    isCode: true
   },
   {
     id: 3,
-    image: IMG3,
     title: 'Project 3',
-    description: 'Stuff',
-    link1: 'https://github.com',
-    link2: 'https://github.com',
-    link3: 'https://github.com',
+    description: 'Description',
+    video: 'https://github.com',
+    isVideo: true,
+    demo: 'https://github.com',
+    isDemo: true,
+    code: 'https://github.com',
+    isCode: true
+  },
+  {
+    id: 4,
+    title: 'Project 4',
+    description: 'Description',
+    video: 'https://github.com',
+    isVideo: true,
+    demo: 'https://github.com',
+    isDemo: true,
+    code: 'https://github.com',
+    isCode: true
+  },
+  {
+    id: 5,
+    title: 'Project 5',
+    description: 'Description',
+    video: 'https://github.com',
+    isVideo: true,
+    demo: 'https://github.com',
+    isDemo: true,
+    code: 'https://github.com',
+    isCode: true
   },
  
 ]
@@ -49,18 +77,15 @@ const Portfolio = () => {
 
       <div className="container portfolio__container">
         {
-          data.map(({id, image, title, description, link1, link2, link3}) => {
+          data.map(({id, title, description, video, isVideo, demo, isDemo, code, isCode}) => {
             return (
               <article key={id} className='portfolio__item'>
-              <div className="portfolio__item-image">
-                <img src={image} alt={title} />
-              </div>
               <h5 className='portfolio__title'>{title}</h5>
               <p className='portfolio__description'>{description}</p>
               <div className="portfolio__item-cta">
-                <a href={link1} className='btn' target='_blank'>Watch Video Breakdown</a>
-                <a href={link2} className='btn' target='_blank'>Try Demon</a>
-                <a href={link3} className='btn' target='_blank'>Visit Source Code</a>
+               {isVideo && <a href={video} className='btn' target='_blank'>Watch Video Breakdown</a>}
+               {isDemo && <a href={demo} className='btn' target='_blank'>Try Demo</a>}
+               {isCode && <a href={code} className='btn' target='_blank'>Source Code</a>}
               </div>
             </article>
             )
