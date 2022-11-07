@@ -12,13 +12,13 @@ import IMG3 from '../../../../assets/Assets/portfolio3.png'
 const data = [
   {
     id: 1,
-    title: 'Project 1',
-    description: 'stuff',
-    video: 'https://github.com',
+    title: 'Roblox Rpg game template',
+    description: 'This project features a template design for RPG games in Roblox Studio. I designed and created the entire code base for the template myself. It features a fully functioning quest system,enemy spawning system, weapon system, ability system, money system, day and night system, npc chat system, movement system, database integration, and more. The design of this template was done using the Lua language and the Roblox API. The game framework used was Aerogame, and this project was also integrated with VS Code using Rojo. The demo project linked is an example of a sword game RPG made with this template. That RPG is extensive with 20 main quests, 35 different weapons, 4 regions of combat, and integrated multiplayer. For more information, a video breakdown, source code, and demo project are linked below.',
+    video: 'https://youtu.be/0eEE3v6-ouU',
     isVideo: true,
-    demo: 'https://github.com',
+    demo: 'https://www.roblox.com/games/9853999062/ESPC-Sword-Game-Beta',
     isDemo: true,
-    code: 'https://github.com',
+    code: 'https://github.com/A-Ricemusic/ROBLOX_ESPC_RPG_TEMPLATE_CODE',
     isCode: true
   },
   {
