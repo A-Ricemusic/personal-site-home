@@ -35,9 +35,9 @@
 }
 
 .about__cards {
-  display: grid;
-  grid-template-columns: repeat(3, 2fr);
-  gap: 1.0rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   font-size: medium;
 }
 

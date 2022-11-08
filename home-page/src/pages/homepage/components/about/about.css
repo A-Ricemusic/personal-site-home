@@ -1,8 +1,8 @@
 .about__container {
-  display: grid;
+  display: flexbox;
   flex-direction: column;
-  grid-template-columns: 50% 59%;
-  gap: 6%;
+  flex-wrap: wrap;
+  justify-content: flex-end;
 }
 
 .about__me {

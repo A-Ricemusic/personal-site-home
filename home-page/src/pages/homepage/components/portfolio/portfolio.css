@@ -1,7 +1,8 @@
 .portfolio__container {
-  display: grid;
-  grid-template-columns: repeat(0fr,1rem);
-  gap: 2.5rem;
+  display: flexbox;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-items: center;
 }
 .text {
   text-align: center;
@@ -10,8 +11,10 @@
 
 .portfolio-item {
   background-color: transparent;
+  height: 35%;
+  width: 25%;
   background: transparent;
-  padding: 1.2rem;
+ padding-top: 0.25rem;
   border-radius: 2rem;
   border: 1px solid transparent
 }
