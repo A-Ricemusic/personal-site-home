@@ -1,10 +1,7 @@
 import React from 'react'
-import {Link } from 'react-router-dom'
 import './portfolio.css'
 import IMG1 from '../../../../assets/Assets/portfolio1.png'
-//import IMG4 from '../../assets/portfolio4.jpg'
-//import IMG5 from '../../assets/portfolio5.png'
-//import IMG6 from '../../assets/portfolio6.jpg'
+
 
 // DO NOT USE THE IMAGES IN PRODUCTION
 
@@ -19,8 +16,8 @@ const data = [
   {
     id: 2,
     image: IMG1,
-    title: 'Game Development',
-    link: '/GameDevelopementProjects',
+    title: 'Projects',
+    link: '/Projects',
     isLink: true
   }
  
