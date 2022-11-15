@@ -21,9 +21,9 @@ const About = () => {
                 and generally prefers django or flask to develop backend. However,
                 Anthony also has experience using .net, springboot, node and express, vue js, angular, 
                 and other popular web frameworks. Anthony also has experience using MySql 
-                and Mongo Db for database management and structure. Anthony also has extensive 
+                and Mongo Db for database management and structure. Along with web development, Anthony also has extensive 
                 experience in game development. He considers himself an expert in Roblox Studio 
-                game creation. He also has experience using Unity and Unreal engine 5</p>
+                game development and creation, with some experience using Unity and Unreal engine 5</p>
             </article>
           </div>
         </div>

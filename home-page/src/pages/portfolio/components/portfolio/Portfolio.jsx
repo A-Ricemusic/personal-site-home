@@ -53,7 +53,7 @@ const Portfolio = () => {
               <h5 className='portfolio__title'>{title}</h5>
               <p className='portfolio__description'>{description}</p>
               <div className="portfolio__item-cta">
-               {isVideo && <iframe width="560" height="315" src={video} title="Video breakdown" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe>}
+               {isVideo && <iframe width="50%" height="75%" src={video} title="Video breakdown" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe>}
                {isDemo && <a rel="noreferrer"  href={demo} className='btn' target='_blank'>Try Demo</a>}
                {isCode && <a rel="noreferrer"  href={code} className='btn' target='_blank'>Source Code</a>}
               </div>

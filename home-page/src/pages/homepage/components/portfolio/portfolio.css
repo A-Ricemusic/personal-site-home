@@ -3,6 +3,7 @@
   flex-direction: column;
   flex-wrap: wrap;
   justify-items: center;
+  align-content: center;
 }
 .text {
   text-align: center;
@@ -14,8 +15,7 @@
   height: 35%;
   width: 25%;
   background: transparent;
- padding-top: 0.25rem;
-  border-radius: 2rem;
+  border-radius: 1rem;
   border: 1px solid transparent
 }
 
@@ -25,12 +25,13 @@
 }
 
 .portfolio__item-image {
-  border-radius: 1.5rem;
+  border-radius: 1.0rem;
   overflow: hidden;
+
 }
 
 .portfolio__item h3 {
-  margin: 1.2rem 0 2rem;
+  margin: 0.5rem 0 2rem;
 }
 
 .portfolio__item-cta {

@@ -2,12 +2,10 @@ import React from 'react'
 import './Nav.css'
 import {AiTwotoneHome} from 'react-icons/ai' 
 import {FcAbout} from 'react-icons/fc'
-import {AiFillExperiment} from 'react-icons/ai'
 import {GoProject} from 'react-icons/go'
 import {FcServices} from 'react-icons/fc'
 import {FcContacts} from 'react-icons/fc'
 import {MdWork} from 'react-icons/md'
-//import {MdCastForEducation} from 'react-icons/md'
 import { useState } from 'react'
 
 const Nav = () => {

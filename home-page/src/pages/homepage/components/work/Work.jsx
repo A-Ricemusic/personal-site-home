@@ -10,8 +10,8 @@ const data = [
     title: 'ESPC – Tampa, FL - Programming Instructor and Game Developer',
     subheading: 'Coding/programming academy specializing in web and game development',
     time: '2022-present',
-    description1: 'Assisted the web development team in the creation and maintenance of the company website.',
-    description2: 'Curated curriculum to teach computer science concepts and techniques such as object oriented programming, code optimization.',
+    description1: 'Assisted the game development team in the creation and maintenance of various Roblox games.',
+    description2: 'Curated curriculum to teach computer science concepts and techniques such as object oriented programming, code optimization and more.',
     description3: 'Used Javascript inside of Google Sheets to automate various processes to maximize efficiency in the work environment.',
   },
   {

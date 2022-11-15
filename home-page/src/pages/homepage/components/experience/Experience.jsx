@@ -47,6 +47,13 @@ const Experience = () => {
                 <small className='text-light'>Experienced</small>
               </div>
             </article>
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon' />
+              <div>
+                <h4>Angular</h4>
+                <small className='text-light'>Basics</small>
+              </div>
+            </article>
           </div>
         </div>
         {/* END OF FRONTEND */}
@@ -64,8 +71,8 @@ const Experience = () => {
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon' />
               <div>
-                <h4>MySQL</h4>
-                <small className='text-light'>Basic</small>
+                <h4>Flask</h4>
+                <small className='text-light'>Experienced</small>
               </div>
             </article>
             <article className='experience__details'>
@@ -79,6 +86,20 @@ const Experience = () => {
               <BsPatchCheckFill className='experience__details-icon' />
               <div>
                 <h4>Node Js</h4>
+                <small className='text-light'>Intermediate</small>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon' />
+              <div>
+                <h4>Aspen .net</h4>
+                <small className='text-light'>Basics</small>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon' />
+              <div>
+                <h4>Express js</h4>
                 <small className='text-light'>Intermediate</small>
               </div>
             </article>
@@ -107,22 +128,19 @@ const Experience = () => {
               <BsPatchCheckFill className='experience__details-icon' />
               <div>
                 <h4>Pygame</h4>
-                <small className='text-light'>Basic</small>
+                <small className='text-light'>Basics</small>
               </div>
             </article>
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon' />
               <div>
                 <h4>Unreal Engine</h4>
-                <small className='text-light'>Basic</small>
+                <small className='text-light'>Basics</small>
               </div>
             </article>
           </div>
         </div>
       </div>
-
-  
-      
     </section>
   )
 }
