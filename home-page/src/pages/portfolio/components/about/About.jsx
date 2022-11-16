@@ -18,8 +18,8 @@ const About = () => {
                 with extensive knowledge of 
                 Python and Javascript. 
                 Anthony prefers building frontend using react and bootstrap, 
-                and generally prefers django or flask to develop backend. However,
-                Anthony also has experience using .net, springboot, node and express, vue js, angular, 
+                and generally prefers django or flask for develop backend. However,
+                Anthony also has experience using Aspen .net, springboot, node and express, vue js, angular, 
                 and other popular web frameworks. Anthony also has experience using MySql 
                 and Mongo Db for database management and structure. Along with web development, Anthony also has extensive 
                 experience in game development. He considers himself an expert in Roblox Studio 
