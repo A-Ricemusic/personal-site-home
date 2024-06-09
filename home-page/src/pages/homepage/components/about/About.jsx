@@ -23,10 +23,10 @@ const About = () => {
             <article className='about__card'>
               <FaAward className='about__icon'/>
               <h5>Experience</h5>
-              <p>Web development</p>
-              <p>Mortgage Analyst</p>
-              <p>Game development</p>
-              <p>Education</p>
+              <p>Web Development</p>
+              <p>Unreal Engine 5</p>
+              <p>Python</p>
+              <p>C++</p>
             </article>
 
             <article className='about__card'>
@@ -49,7 +49,7 @@ const About = () => {
           </div>
 
           <h3>
-           Mathematics graduate with knowledge of actuarial science, software engineering, and statistical analysis. Has experience in the financial and mortgage profession, with a background in customer care and education.
+          Mathematics graduate with a solid foundation in actuarial science, software engineering, and statistical analysis. Experienced in the financial and mortgage sectors, demonstrating strong problem-solving skills and attention to detail. Transitioned into software development with a focus on Unreal Engine 5, leveraging analytical expertise to create immersive and optimized gaming experiences. Proven ability to learn and adapt quickly, with a background in customer care and education, ensuring effective communication and collaboration within development teams.
           </h3>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>

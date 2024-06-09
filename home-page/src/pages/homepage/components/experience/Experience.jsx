@@ -8,7 +8,86 @@ const Experience = () => {
       <h5>Skills</h5>
       <h2>My Experience</h2>
       
-      <div className="container experience__container">
+
+        <div className="experience__gamedevelopment">
+        <h3>Game Development</h3>
+          <div className="experience__content">
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon' />
+              <div>
+                <h4>Roblox Studio</h4>
+                <small className='text-light'>Expert</small>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon' />
+              <div>
+                <h4>Blender</h4>
+                <small className='text-light'>Advanced</small>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon' />
+              <div>
+                <h4>Unreal Engine</h4>
+                <small className='text-light'>Advanced</small>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <div className="container experience__container">
+      
+      <div className="experience__backend">
+      <h3>Backend Development</h3>
+        <div className="experience__content">
+          <article className='experience__details'>
+            <BsPatchCheckFill className='experience__details-icon' />
+            <div>
+              <h4>Django</h4>
+              <small className='text-light'>Experienced</small>
+            </div>
+          </article>
+          <article className='experience__details'>
+            <BsPatchCheckFill className='experience__details-icon' />
+            <div>
+              <h4>Flask</h4>
+              <small className='text-light'>Experienced</small>
+            </div>
+          </article>
+          <article className='experience__details'>
+            <BsPatchCheckFill className='experience__details-icon' />
+            <div>
+              <h4>Python</h4>
+              <small className='text-light'>Experienced</small>
+            </div>
+          </article>
+          <article className='experience__details'>
+            <BsPatchCheckFill className='experience__details-icon' />
+            <div>
+              <h4>Node Js</h4>
+              <small className='text-light'>Intermediate</small>
+            </div>
+          </article>
+          <article className='experience__details'>
+            <BsPatchCheckFill className='experience__details-icon' />
+            <div>
+              <h4>Aspen .net</h4>
+              <small className='text-light'>Basics</small>
+            </div>
+          </article>
+          <article className='experience__details'>
+            <BsPatchCheckFill className='experience__details-icon' />
+            <div>
+              <h4>Express js</h4>
+              <small className='text-light'>Intermediate</small>
+            </div>
+          </article>
+        </div>
+      </div>
+
+          {/*End of Back*/}
+
         <div>
           <h3>Frontend Development</h3>
           <div className="experience__content">
@@ -58,88 +137,6 @@ const Experience = () => {
         </div>
         {/* END OF FRONTEND */}
 
-        <div className="experience__backend">
-        <h3>Backend Development</h3>
-          <div className="experience__content">
-            <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon' />
-              <div>
-                <h4>Django</h4>
-                <small className='text-light'>Experienced</small>
-              </div>
-            </article>
-            <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon' />
-              <div>
-                <h4>Flask</h4>
-                <small className='text-light'>Experienced</small>
-              </div>
-            </article>
-            <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon' />
-              <div>
-                <h4>Python</h4>
-                <small className='text-light'>Experienced</small>
-              </div>
-            </article>
-            <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon' />
-              <div>
-                <h4>Node Js</h4>
-                <small className='text-light'>Intermediate</small>
-              </div>
-            </article>
-            <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon' />
-              <div>
-                <h4>Aspen .net</h4>
-                <small className='text-light'>Basics</small>
-              </div>
-            </article>
-            <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon' />
-              <div>
-                <h4>Express js</h4>
-                <small className='text-light'>Intermediate</small>
-              </div>
-            </article>
-          </div>
-        </div>
-
-            {/*End of Back*/}
-        <div className="experience__gamedevelopment">
-        <h3>Game Development</h3>
-          <div className="experience__content">
-            <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon' />
-              <div>
-                <h4>Roblox Studio</h4>
-                <small className='text-light'>Expert</small>
-              </div>
-            </article>
-            <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon' />
-              <div>
-                <h4>Unity</h4>
-                <small className='text-light'>Intermediate</small>
-              </div>
-            </article>
-            <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon' />
-              <div>
-                <h4>Pygame</h4>
-                <small className='text-light'>Basics</small>
-              </div>
-            </article>
-            <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon' />
-              <div>
-                <h4>Unreal Engine</h4>
-                <small className='text-light'>Basics</small>
-              </div>
-            </article>
-          </div>
-        </div>
       </div>
     </section>
   )

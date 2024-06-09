@@ -7,15 +7,24 @@ import './work.css'
 const data = [
   {
     id: 1,
-    title: 'ESPC – Tampa, FL - Programming Instructor and Game Developer',
+    title: 'ESPC – Tampa, FL - Unreal Engine 5 Instructor',
     subheading: 'Coding/programming academy specializing in web and game development',
     time: '2022-present',
-    description1: 'Assisted the game development team in the creation and maintenance of various Roblox games.',
-    description2: 'Curated curriculum to teach computer science concepts and techniques such as object oriented programming, code optimization and more.',
-    description3: 'Used Javascript inside of Google Sheets to automate various processes to maximize efficiency in the work environment.',
+    description1: 'Leveraged expertise in Unreal Editor for Fortnite to develop professional-grade experiences featured in prominent esports tournaments and events. Demonstrated a high level of creativity and technical proficiency by creating immersive, engaging gameplay environments that captivated audiences and enhanced the competitive experience. Successfully collaborated with cross-functional teams to ensure seamless integration and performance, showcasing the ability to deliver high-quality, impactful content under tight deadlines.',
+    description2: 'Designed and developed comprehensive curriculum to teach essential computer science concepts and techniques, including object-oriented programming and code optimization. Created engaging, interactive lessons that simplified complex topics, fostering a deep understanding and practical application among students. Continuously refined the curriculum based on feedback and advancements in the field, ensuring it remained current and impactful.',
+    description3: 'Successfully instructed students of all ages in Unreal Engine 5, Roblox Studio, and Blender, fostering a creative and collaborative learning environment. Demonstrated expertise in these platforms by developing engaging, hands-on curriculum that catered to diverse learning styles and skill levels. Enabled students to gain practical, real-world experience in game development and 3D modeling, while also cultivating their problem-solving and critical thinking abilities.',
   },
   {
     id: 2,
+    title: 'Re-A-Door Cabinets – Tampa, FL - Wordpress Web Developer',
+    subheading: 'Kitchen cabinet and cabinet refacing company centered in Tampa Fl.',
+    time: '2023-present',
+    description1: 'Designed and developed a comprehensive WordPress website from the ground up, significantly enhancing user experience, SEO performance, and backend functionality.',
+    description2: 'Implemented modern design principles and intuitive navigation to improve user engagement and satisfaction.',
+    description3: ' Optimized SEO to increase visibility and drive organic traffic, while streamlining backend processes to boost overall site performance and manageability. Delivered a robust, scalable solution that contributed to the company\'s online presence and operational efficiency.',
+  },
+  {
+    id: 3,
     title: 'Mathnasium – Tampa, FL - Assistant Center Director',
     subheading: 'Tutoring center and franchise  specializing in K-12 mathematics education.',
     time: '2021-2022',
@@ -24,7 +33,7 @@ const data = [
     description3: 'Worked with a marketing specialist to innovate strategies and techniques for customer acquisition.',
   },
   {
-    id: 3,
+    id: 4,
     title: 'Mission Capital – Tampa, FL – Collateral Analyst',
     subheading: 'Mortgage service business specializing in assignment chain verification.',
     time: '2019-2021',
