@@ -7,7 +7,7 @@ import './work.css'
 const data = [
   {
     id: 1,
-    title: 'ESPC – Tampa, FL - Unreal Engine 5 Instructor',
+    title: 'Esports Players and Coding – Tampa, FL - Unreal Engine 5 Instructor',
     subheading: 'Coding/programming academy specializing in web and game development',
     time: '2022-present',
     description1: 'Leveraged expertise in Unreal Editor for Fortnite to develop professional-grade experiences featured in prominent esports tournaments and events. Demonstrated a high level of creativity and technical proficiency by creating immersive, engaging gameplay environments that captivated audiences and enhanced the competitive experience. Successfully collaborated with cross-functional teams to ensure seamless integration and performance, showcasing the ability to deliver high-quality, impactful content under tight deadlines.',
@@ -20,29 +20,18 @@ const data = [
     subheading: 'Kitchen cabinet and cabinet refacing company centered in Tampa Fl.',
     time: '2023-present',
     description1: 'Designed and developed a comprehensive WordPress website from the ground up, significantly enhancing user experience, SEO performance, and backend functionality.',
-    description2: 'Implemented modern design principles and intuitive navigation to improve user engagement and satisfaction.',
-    description3: ' Optimized SEO to increase visibility and drive organic traffic, while streamlining backend processes to boost overall site performance and manageability. Delivered a robust, scalable solution that contributed to the company\'s online presence and operational efficiency.',
+    description2: 'Implemented cutting-edge design principles and intuitive navigation systems to significantly enhance user engagement and satisfaction. Created visually appealing and user-friendly interfaces that streamlined the user journey, resulting in increased interaction and positive feedback. Focused on delivering a seamless and enjoyable user experience that aligned with the latest industry standards and best practices.',
+    description3: 'Optimized SEO strategies to significantly increase visibility and drive organic traffic, leading to higher engagement and conversion rates. Streamlined backend processes to enhance site performance and manageability, ensuring a smooth and efficient user experience. Delivered a robust, scalable solution that strengthened the company’s online presence and operational efficiency, contributing to sustained growth and competitive advantage.',
   },
   {
     id: 3,
     title: 'Mathnasium – Tampa, FL - Assistant Center Director',
     subheading: 'Tutoring center and franchise  specializing in K-12 mathematics education.',
     time: '2021-2022',
-    description1: 'Organized customer information in Excel and microsoft office to be used in various business functions.',
-    description2: 'Developed strong communication and teaching skills, and the ability to explain complex concepts in a simple way.',
-    description3: 'Worked with a marketing specialist to innovate strategies and techniques for customer acquisition.',
+    description1: 'Expertly organized and managed customer information using Excel and Microsoft Office, enabling efficient utilization across various business functions. Streamlined data entry and retrieval processes to enhance accuracy and accessibility, supporting informed decision-making and improved customer service. Created comprehensive reports and dashboards that provided valuable insights, contributing to the overall operational effectiveness and strategic planning of the company.',
+    description2: 'Cultivated exceptional communication and teaching skills, demonstrating the ability to articulate complex concepts in a clear and accessible manner. Effectively engaged diverse audiences, ensuring understanding and retention of key information. Proven talent for simplifying intricate topics, fostering a collaborative and supportive learning environment that enhances overall comprehension and skill development.',
+    description3: 'Collaborated with a marketing specialist to innovate and implement advanced strategies and techniques for customer acquisition. Played a key role in developing targeted campaigns that effectively attracted and retained customers, driving significant growth and market reach. Leveraged data-driven insights to refine approaches, resulting in increased engagement and conversion rates.',
   },
-  {
-    id: 4,
-    title: 'Mission Capital – Tampa, FL – Collateral Analyst',
-    subheading: 'Mortgage service business specializing in assignment chain verification.',
-    time: '2019-2021',
-    description1: 'Examined and verified assignment chains of mortgages for a variety of counties and states.',
-    description2: 'Prepared gap, corrective, and rescission assignments of mortgage to correct assignment chains.',
-    description3: 'Utilized Javascript and Python to organize and automate processes to cure collateral files for clients.',
-  },
-  
- 
  
 ]
 
