@@ -6,10 +6,10 @@ import Projects from './pages/portfolio/Projects'
 const App = () => {
   return ( 
   <BrowserRouter basename="/" >
-  <Routes>
-      <Route path='/' element={<HomePage />}/>
-      <Route path='Projects' element={<Projects />}/>
-      </Routes>
+    <Routes>
+      <Route path='/personal-site-home' element={<HomePage />}/>
+      <Route path='/personal-site-home/Projects' element={<Projects />}/>
+    </Routes>
   </BrowserRouter>
   )
 }
