@@ -10,7 +10,7 @@ const data = [
     id: 1,
     image: IMG1,
     title: 'Projects',
-    link: '/personal-site-home/Projects',
+    link: '/Projects',
     isLink: true
   }
  

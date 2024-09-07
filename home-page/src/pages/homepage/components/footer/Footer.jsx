@@ -5,12 +5,12 @@ const Footer = () => {
   return (
     <footer>
       {/* Suppress the eslint warning if necessary */}
-      <a href="/personal-site-home" className='footer__logo'>Anthony Rice</a>
+      <a href="#" className='footer__logo'>Anthony Rice</a>
 
       <ul className='permalinks'>
         <li>
           {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-          <a href="/personal-site-home">Home</a>
+          <a href="#">Home</a>
         </li>
         <li>
           {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
